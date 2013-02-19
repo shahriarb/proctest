@@ -1,2 +1,2 @@
-some_task: /usr/local/bin/bundle exec rake -f <%=ENV['RAILS_STACK_PATH']%>/current/Rakefile environment proc:write[<%=ENV['RAILS_STACK_PATH']%>] 
+some_task: /usr/local/bin/bundle exec rake -f <%=ENV['RAILS_STACK_PATH']%>/current/Rakefile environment proc:write["Hollo Man"] 
 
