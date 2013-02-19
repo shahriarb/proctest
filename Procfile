@@ -1,1 +1,1 @@
-some_task: /usr/local/bin/bundle exec rake -f /var/deploy/cloud_66/web_head/current/Rakefile proc:write["gghfh"] 
+some_task: /usr/local/bin/bundle exec rake -f <%=ENV['RAILS_STACK_PATH']%>/Rakefile environment proc:write["I am a rake task"] 
